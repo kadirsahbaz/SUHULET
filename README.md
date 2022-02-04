@@ -6,12 +6,12 @@ Sample Layer Tree:
     A/                  Group
     ├─ LayerA           Layer
     ├─ B/               Group
-    │  ├─ LayerB        Layer
-    │  ├─ C/            Group
-    │  │  ├─ LayerC     Layer
-    │  │  ├─ LayerE     Layer
-    │  ├─ D/            Group
-    │  │  ├─ LayerD     Layer
+       ├─ LayerB        Layer
+       ├─ C/            Group
+          ├─ LayerC     Layer
+          ├─ LayerE     Layer
+       ├─ D/            Group
+          ├─ LayerD     Layer
 
 `G`: Group
 - 
