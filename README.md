@@ -31,7 +31,6 @@ Sample Layer Tree:
 `L("A/B/C/LayerC")` -> `LayerC` (returns `QgsMapLayer`, not `QgsLayerTreeLayer`)  
 `L("/A/B/C/LayerC/")` -> the same above. Ignores leading and trailing "/"  
 `L("A/B/C")` -> raises an error. The last item have to be a `QgsMapLayer`.  
-`L("A/B/C")`
 
 `Ls`: Layers
 -
