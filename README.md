@@ -19,17 +19,17 @@ Sample Layer Tree:
 `G("A/B")` -> group B
 
 `Gs`: Groups  
-`Gs()` -> returns all group in root  
+`Gs()` -> returns all groups in root  
 `Gs("A/B")` returns `[group C, group D]`
 
 `L`: Layer  
 `L("Layer")` -> returns the first layer (`QgsMapLayer`) named "Layer"   
               in layer tree. It is recursive.  
 `L("A/B/C/LayerC")` -> `LayerC` (returns `QgsMapLayer`, not `QgsLayerTreeLayer`)  
-`L("/A/B/C/LayerC/")` -> the same above. Ignores leading and trailing "/"
+`L("/A/B/C/LayerC/")` -> the same above. Ignores leading and trailing "/"  
 `L("A/B/C")` -> raises an error. The last item have to be a `QgsMapLayer`.  
 `L("A/B/C")`
 
-`Ls: Layers  
+`Ls`: Layers  
 `Ls()` -> all root layers, except groups  
 `Ls("A/B/C")` -> `[LayerC, LayerE]` - `QgsMapLayers`  
