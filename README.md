@@ -19,13 +19,11 @@ Sample Layer Tree:
 `G("A")` -> group A  
 `G("A/B")` -> group B
 
----
 `Gs`: Groups
 -
 `Gs()` -> returns all groups in root  
 `Gs("A/B")` returns `[group C, group D]`
 
----
 `L`: Layer
 -
 `L("Layer")` -> returns the first layer (`QgsMapLayer`) named "Layer"   
@@ -35,7 +33,6 @@ Sample Layer Tree:
 `L("A/B/C")` -> raises an error. The last item have to be a `QgsMapLayer`.  
 `L("A/B/C")`
 
----
 `Ls`: Layers
 -
 `Ls()` -> all root layers, except groups  
