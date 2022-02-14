@@ -13,18 +13,18 @@ Sample Layer Tree:
        ├─ D/            Group
           ├─ LayerD     Layer
 
-`G`: Group
+`G` or `Group`
 - 
 `G()` -> returns root  
 `G("A")` -> group A  
 `G("A/B")` -> group B
 
-`Gs`: Groups
+`Gs` or `Groups`
 -
 `Gs()` -> returns all groups in root  
 `Gs("A/B")` returns `[group C, group D]`
 
-`L`: Layer
+`L` or `Layer`
 -
 `L("Layer")` -> returns the first layer (`QgsMapLayer`) named "Layer"   
               in layer tree. It is recursive.  
@@ -32,7 +32,7 @@ Sample Layer Tree:
 `L("/A/B/C/LayerC/")` -> the same above. Ignores leading and trailing "/"  
 `L("A/B/C")` -> raises an error. The last item have to be a `QgsMapLayer`.  
 
-`Ls`: Layers
+`Ls` or `Layers`
 -
 `Ls()` -> all root layers, except groups  
 `Ls("A/B/C")` -> `[LayerC, LayerE]` - `QgsMapLayers`  
