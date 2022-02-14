@@ -37,7 +37,7 @@ L("Layer") -> returns the first layer (QgsMapLayer) named "Layer"
               in layer tree. It is recursive. 
 L("A/B/C/LayerC") -> LayerC (returns QgsMapLayer, not QgsLayerTreeLayer)
 L("/A/B/C/LayerC/") -> the same above. Ignores leading and trailing "/"               
-L("A/B/C") -> rises an error. The last item have to be a QgsMapLayer.
+L("A/B/C") -> rises an error. The last item has to be a QgsMapLayer.
 L("A/B/C")
 
 Ls: Layers
