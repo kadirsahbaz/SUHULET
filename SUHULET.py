@@ -3,7 +3,7 @@
 *******************************************************
                        SUHULET
                                  
-Easy access to liayer and group in QGIS Layers panel
+Easy access to layer and group in QGIS Layers Panel
 
                               -------------------
         begin                : 2022-01-31
