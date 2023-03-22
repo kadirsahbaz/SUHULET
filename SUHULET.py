@@ -8,7 +8,7 @@ Easy access to layer and group in QGIS Layers Panel
                               -------------------
         begin                : 2022-01-31
         author               : Kadir Şahbaz
-        email                : kadirsahbaz@htomail.com
+        email                : kadirsahbaz@hotmail.com
  *******************************************************
 
 Sample Layer Tree:
